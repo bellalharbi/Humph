@@ -9,7 +9,7 @@ chrome.runtime.onMessage.addListener(
         var xhr = new XMLHttpRequest();
         xhr.open("POST", "http://bellalharbi.com/forbell/humph.php", true);
         xhr.onreadystatechange = function() {
-            if (xhttp.readyState == 4 && xhttp.status == 200) {
+            if (xhr.readyState == 4 && xhr.status == 200) {
                 console.log(xhr.responseText);
             }
         };
