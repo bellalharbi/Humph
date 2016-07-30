@@ -7,8 +7,7 @@
     "activeTab"
   ],
   "browser_action": {
-    "default_title": "Humph",
-    "default_popup": "popup.html"
+    "default_title": "Humph"
   },
   "background": {
     "scripts": ["background.js"],
