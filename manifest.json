@@ -1,0 +1,22 @@
+{
+  "name": "Humph",
+  "version": "1.1",
+  "description": " ",
+  "permissions": [
+    "bookmarks",
+    "active tab"
+  ],
+  "browser_action": {
+    "default_title": "Humph",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    "js": ["scrape.js"],
+    "run_at": "document_end"
+  ]
+  "manifest_version": 1,
+}
