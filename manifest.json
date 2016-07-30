@@ -15,8 +15,10 @@
     "persistent": false
   },
   "content_scripts": [
-    "js": ["scrape.js"],
-    "run_at": "document_end"
-  ]
+    {
+      "js": ["scrape.js"],
+      "run_at": "document_end"
+    }
+  ],
   "manifest_version": 1,
 }
