@@ -16,6 +16,7 @@
   },
   "content_scripts": [
     {
+      "matches": ["http://*/*"],
       "js": ["scrape.js"],
       "run_at": "document_end"
     }
