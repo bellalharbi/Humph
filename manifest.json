@@ -7,7 +7,8 @@
     "activeTab"
   ],
   "browser_action": {
-    "default_title": "Humph"
+    "default_title": "Humph",
+    "default_icon": "icon.png"
   },
   "background": {
     "scripts": ["background.js"],
