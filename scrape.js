@@ -8,58 +8,7 @@ var imageurlX = document.querySelector('meta[name=twitter:image]').getAttribute(
 
 //need to run a check to see if url already in table and, if so, alert and stop script here
 
-var modalCss = "#humphModal {
-    display: none;
-    position: fixed;
-    z-index: 100;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0; 
-    background-color: rgba(0,0,0,0.4); 
-} #humphContent {
-    display: none;
-    position: fixed;
-    z-index: 101;
-    width: 50%;
-    min-width: 500px;
-    min-height: 400px;
-    max-height:700px;
-    top: 200px;
-    left: 25%;
-    background-color: #FFFFFF; 
-    font-size: 18px;
-} #humphHeader {
-    font-size: 26px; 
-    width:100%;
-    background-color: #5A3B4D;
-    height:50px;
-    line-height: 30px;
-    color: #FFFFFF;
-} .humph-unit {
-    width: 100%;
-    margin: 5px;
-    height: 70px;
-} .humph-input {
-    height: 30px;
-    border: 2px solid #C4C4C4;
-    border-radius: 2px;
-    background-color: #F2F2F2;
-    width: 90%;
-    font-size: 18px;
-} .humph-text-area {
-    //do later UGH THIS CSS IS SO BORING, I CAN'T EVEN TEST IT i probably can i'm just dumb and lazy, a very powerful combination
-} #humphClose {
-    position: relative;
-    float: right;
-    margin: 5px;
-} #humphSubmit {
-    background-color: #5A3B4D;
-    font-size: 24px;
-    color: #FFFFFF;
-    width: 80px;
-    height: 40px;
-}"
+var modalCss = "#humphModal { display: none; position: fixed; z-index: 100; width:100%; height:100%; top:0; left:0; background-color: rgba(0,0,0,0.4); } #humphContent { display: none;position: fixed;z-index: 101;width: 50%;min-width: 500px;min-height: 400px;max-height:700px;top: 200px;left: 25%;background-color: #FFFFFF; font-size: 18px;} #humphHeader {font-size: 26px; width:100%;background-color: #5A3B4D;height:50px;line-height: 30px;color: #FFFFFF;} .humph-unit {width: 100%;margin: 5px;height: 70px;} .humph-input {height: 30px;border: 2px solid #C4C4C4;border-radius: 2px;background-color: #F2F2F2;width: 90%;font-size: 18px;} #humphClose {position: relative;float: right;margin: 5px;} #humphSubmit {background-color: #5A3B4D;font-size: 24px;color: #FFFFFF;width: 80px;height: 40px;}"
     
 var humphStyle = document.createElement('style');
 humphStyle.type = 'text/css';
