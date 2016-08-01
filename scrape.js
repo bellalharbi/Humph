@@ -42,7 +42,8 @@ if (indArray.length > 0){
     var humphHeader = document.getElementById("humphHeader")
     humphHeader.innerHTML = 'Missing '+indArray.length+' fields <div id="humphClose">x</div>';
     //fill modal content
-    for (var i = 0, i < 7, i++){
+    var i;
+    for (i = 0, i < 7, i++) {
         if (i=0){
             humphUnitVal = "URL";
             humphInputVal = urlX;
